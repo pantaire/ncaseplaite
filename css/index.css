@@ -20,11 +20,11 @@ body{
 	font-weight: 100;
 }
 a{
-	color:#cc2727;
+	color:darkgreen;
 	text-decoration: none;
 }
 a:hover{
-	color:#ee4949;
+	color: darkolivegreen;
 }
 a.homelink{
 	color:inherit;
@@ -109,7 +109,7 @@ a.homelink:hover{
 	display: inline-block;
     overflow: hidden;
 	width: 390px;
-	height:150px;
+	height:160px;
 	margin-bottom:20px;
 	/*float: left;*/
 
@@ -155,18 +155,6 @@ a.homelink:hover{
 	letter-spacing: 10px;
 	margin-top: 40px;
 	margin-bottom: 25px;
-}
-#mc_signup_thing_text{
-	font-size: 44px;
-}
-@media (max-width: 800px){
-	#mc_signup_thing{
-		margin-left: 20px;
-		margin-right: 20px;
-	}
-	#mc_signup_thing_text{
-		font-size: 42px;
-	}
 }
 
 
