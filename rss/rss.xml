@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+  <channel>
+    <title>Taire</title>
+    <link>https://taire.de</link>
+    <description>RSS Feed</description>
+    <language>en-us</language>
+    <image>
+      <title>Taire</title>
+      <link>https://taire.de</link>
+      <url>https://taire.de/img/archive.png</url>
+    </image>
+    <item>
+      <title>New Feed, who dis?</title>
+      <pubDate>Sat, 12 Sep 2020 22:00 +0200</pubDate>
+      <link>https://taire.de/rss/rss.xml</link>
+      <description>
+        <![CDATA[ <img width="800" height="200" 
+src="https://taire.de/archive" alt="Hello World!" loading="lazy" 
+/>Hey! thank you for sticking around, hope you enjoy this new format as much as i do :) ]]>
+      </description>
+    </item>
+    <item>
+      <title>New Post</title>
+      <pubDate>Thu, 10 Sep 2020 14:33 +0200</pubDate>
+      <link>https://taire.de/</link>
+      <description>
+        <![CDATA[Surprise, <a href="https://taire.de">taire.de</a> looks different now!]]>
+      </description>
+    </item>
+  </channel>
+</rss>
