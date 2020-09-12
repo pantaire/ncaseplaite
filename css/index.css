@@ -97,6 +97,21 @@ a.homelink:hover{
 
 
 /** CONTENT **/
+
+/** post for blog entries**/
+#post{
+	width: 100%;
+	max-width:800px;
+	margin:0 auto;
+	text-align: left;
+	font-size: 22px;
+	padding: 20px 0;
+}
+#post > ul > li > span{
+	color:#aaa;
+	display: block;
+	font-size: 18px;
+}
 #content{
 	width: 100%;
 	max-width:800px;
