@@ -1,0 +1,207 @@
+<head>
+
+    <title>taire</title>
+
+    <!-- Meta -->
+    <meta name="google-site-verification" content="ztCJwMJJ_0D_ob3KCK-h4JIM85l05xcEy5ZaJNzvBlA">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=450">
+    <link rel="icon" type="image/png" href="../favicon.ico" />
+
+    <!-- Stylin' -->
+    <link rel="stylesheet" href="../css/index.css" />
+
+</head>
+
+<body>
+    <!-- NAV/LINKS -->
+    <div id="header">
+        <div id="nav">
+            <span id="nav_names">How to get those Nuggs</span>
+        </div>
+    </div>
+
+    <div id="content">
+
+        <h1 id="summary">...and why you should have listened to your math teachers.
+        </h1>
+        <div id="post">
+            <!--ADD LINKS TO PARTS HERE-->
+            <div id=part1>
+                <h2>Part 1: What is up with chicken nuggets?</h2>
+                <p>
+                    Calling something as simple and beautiful as chicken nuggets a problem is strange, I admit. Even if
+                    it’s
+                    just mathematical.
+                </p>
+                <p>
+                    But these golden bits of pure joy hold (better, are held by) something not as joyful, if you think
+                    about it for long enough.
+                </p>
+                <p>
+                    Or even more joyful, if you are into those kind of things.
+                </p>
+                <p>
+                    <h3>(Package) Size matters</h3>
+
+                    If your hunger for chicken nuggets has ever led you to a McDonalds in Germany (i assume other
+                    countries
+                    as
+                    well, i only checked a few), you are prompted to choose between packages containing 6, 9 or 20
+                    nuggets.
+                </p>
+                <p>
+                    I don’t know the reason for those numbers, especially since there are 4-packs (at least in some
+                    other
+                    countries)
+                    and occasional promo offers with 11 nuggs per package. But for now, let’s assume 6,9 and 20 to be
+                    the standard packaging sizes.
+                </p>
+                <p>
+
+                    If you want to enjoy your nuggs in peace, i strongly suggest to stop reading now. It’s all downhill
+                    from
+                    here.
+                </p>
+                <p>
+                    So, why are those sizes a problem and where does math come into play?
+                </p>
+                <p>
+                    <strong>TL;DR: there are some amounts of nuggets you cannot order with only these three serving
+                        sizes.</strong>
+<br>
+                    These are, of course, all numbers below six (since 6 is the smallest package) and a few more numbers
+                    which
+                    are not divisible by 6, 9, 20 or any combination of those three numbers. Most of them are prime
+                    numbers,
+                    but
+                    I’ll let you figure this out for your own. Eleven, for example, is one of those numbers.
+                    Every number after 43, which is the highest of those numbers, is possibly order-able with at least
+                    one
+                    combination of these package sizes.
+                </p>
+                <p>
+                    This phenomenon is fairly old, being known as <a
+                        href="https://en.wikipedia.org/wiki/Coin_problem">The
+                        Coin Problem</a> after Ferdinand Frobenius. These numbers are even named after him, being called
+                    Frobenius numbers.
+                </p>
+                <p>
+                    Here’s your trivial knowledge for today.
+                </p>
+                <p>
+                    …
+                </p>
+                <p>
+                    But since I wanted to get started with learning some web development, I thought “I shalt programme
+                    an app, lest i be damned”.
+                </p>
+                <p>
+                    Everybody recommends programming a calculator to get started, so why not use it for The Greater Good
+                    (which, in this and every other case, is Nuggets)?
+                </p>
+                <p>
+                    This aforementioned app is currently under construction. When i publish this post, the calculation
+                    part is a huge mess that needs some serious improvement.
+                    <br>
+                    But, nevertheless, you can try it out already!
+                </p>
+                <!--INSERT BIG FAT BUTTON TO APP HERE-->
+
+            </div>
+            <div id=part2>
+                <h2>Part 2: It all starts with hunger</h2>
+
+                </p>
+                <p>
+                    Let’s assume you would like to have 60 nuggets. You could either order 10 packages of six each or 3
+                    packages of 20 nuggets. Or, if you don’t mind eating 3 more, you could get 63 nuggets by ordering 7 packages
+                    with nine nuggs.
+                </p>
+                <p>
+                    10 x 6 = 60
+                    3 x 20 = 60
+                    7 x 9 = 63 (close enough)
+                </p>
+                <p>
+                    So, how do you decide which way you order them?
+                </p>
+                <p>
+                    This question is not just about the pure amount of chicken nuggets. There are other factors at play,
+                    such as the price and the amount of dips you will get with your order. Based on this assumption, i wanted
+                    the nugget calculator to give you an overview of options that can help you decide which way to place your
+                    order.
+                </p>
+                <p>
+                    I decided on four different suggestions:
+                </p>
+                <hr>
+                <p>
+                    <strong>Exact: </strong>Return the exact amount. If the entered amount is a Frobenius number (F), return the order
+                    for the next higher non-F number
+                </p>
+                <p>
+                    <strong>Easy: </strong>Return the way with least ordering effort. In the above example, this would be 3 x 20, because
+                    you would only need 3 packages instead of e.g. 10, if you ordered the same amount with packages
+                    containing 6 nuggs each.
+                </p>
+                <p>
+                    <strong>Cheap:</strong> Return the cheapest way to order, even if the number does not exactly match.
+                </p>
+                <p>
+                    <strong>Dips: </strong>Return the order with the most dips. Keep on reading for details.
+                </p>
+                <hr>
+                <p>
+                    Since there are varying prices between the package sizes (for packaging material, labor costs, …),
+                    the price per nugget varies.
+                    So does the amount of dips you get with each ordered package.
+                    <table>
+                        <tr>
+                            <th>Package</th>
+                            <th>Package Price (€)</th>
+                            <th>Price per Nugget (€)</th>
+                            <th>Dips</th>
+                            <th>Nuggets per Dip</th>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>2,99</td>
+                            <td>0,50</td>
+                            <td>1</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>3,99</td>
+                            <td>0,44</td>
+                            <td>2</td>
+                            <td>4,5</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>7,99</td>
+                            <td>0,40</td>
+                            <td>3</td>
+                            <td>6,6</td>
+                        </tr>
+                    </table>
+                    <p>
+                        This diagram with prices and amounts of dips from my area shows that for ordering as many dips
+                        as possible, packs of nine are the best way to go. If you want to stay cheap, your best choice is buying 20s.
+                        <br>
+                        Know your nuggs is all i’m saying.
+                    </p>
+                    <p>
+                        That’s as far as it goes with static prices and dips. However, if those variables change, the
+                        result may vary in favor of another package size.
+                        <br>
+                        And that’s exactly where i’m stuck right now codewise. I’ll be back after reading into this some
+                        more.
+                    </p>
+            </div>
+        </div>
+    </div>
+</body>

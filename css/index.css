@@ -37,9 +37,7 @@ a.homelink:hover{
 #header{
 	
 	width:100%;
-
 	overflow: hidden;
-	
 	text-align: center;
 	background: #000;
 	color: #fff;
@@ -70,12 +68,12 @@ a.homelink:hover{
 #nav a.navlink{
 	color:#666;
 	text-decoration: none;
-
+	
 	-webkit-transition: color 0.2s ease-in-out;
 	-moz-transition: color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out;
-
+	
 }
 #nav a.navlink:hover{
 	color:#fff;
@@ -95,7 +93,22 @@ a.homelink:hover{
 	}
 }
 
-
+strong{
+	font-weight: bold;
+}
+table {
+	padding-top: 15px;
+}
+th, td {
+	border-bottom: 1px solid #ddd;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+hr{
+border-radius: 15px;
+border: 1px solid #ddd;
+}
 /** CONTENT **/
 
 /** post for blog entries**/
@@ -107,6 +120,7 @@ a.homelink:hover{
 	font-size: 22px;
 	padding: 20px 0;
 }
+
 #post > ul > li > span{
 	color:#aaa;
 	display: block;
