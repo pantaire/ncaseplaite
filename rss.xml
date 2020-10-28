@@ -13,16 +13,18 @@
     </image>
     <item>
       <title>Blender diary</title>
-      <pubDate>Sat, 14 Oct 2020 22:00 +0200</pubDate>
+      <pubDate>Wed, 28 Oct 2020 22:00 +0200</pubDate>
       <link>https://taire.de/blender/diary.html</link>
+      <guid>https://taire.de/blender/diary.html</guid>
       <description>
         <![CDATA[ How I learned to use blender - my progress as a diary]]>
       </description>
     </item>
     <item>
       <title>Aktionenhandel</title>
-      <pubDate>Sat, 14 Oct 2020 22:00 +0200</pubDate>
+      <pubDate>Wed, 14 Oct 2020 22:00 +0200</pubDate>
       <link>https://taire.de/misc/aktionenhandel.html</link>
+      <guid>https://taire.de/misc/aktionenhandel.html</guid>
       <description>
         <![CDATA[ A new poem from my old blog, finally on taire.de again. Is in German tho.]]>
       </description>
@@ -31,6 +33,7 @@
       <title>New Feed, who dis?</title>
       <pubDate>Sat, 12 Sep 2020 22:00 +0200</pubDate>
       <link>https://taire.de/rss.xml</link>
+      <guid>https://taire.de/rss.xml</guid>
       <description>
         <![CDATA[ <img width="800" height="200" 
 src="https://taire.de/archive" alt="Hello World!" loading="lazy" 
@@ -41,6 +44,7 @@ src="https://taire.de/archive" alt="Hello World!" loading="lazy"
       <title>New Post</title>
       <pubDate>Thu, 10 Sep 2020 14:33 +0200</pubDate>
       <link>https://taire.de/</link>
+      <guid>https://taire.de/</guid>
       <description>
         <![CDATA[Surprise, <a href="https://taire.de">taire.de</a> looks different now!]]>
       </description>
