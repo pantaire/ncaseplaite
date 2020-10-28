@@ -121,6 +121,10 @@ border: 1px solid #ddd;
 	padding: 20px 0;
 }
 
+img{
+	width: 388px;
+}
+
 #post > ul > li > span{
 	color:#aaa;
 	display: block;

@@ -12,9 +12,17 @@
       <url>https://taire.de/img/archive.png</url>
     </image>
     <item>
+      <title>Blender diary</title>
+      <pubDate>Sat, 14 Oct 2020 22:00 +0200</pubDate>
+      <link>https://taire.de/blender/diary.html</link>
+      <description>
+        <![CDATA[ How I learned to use blender - my progress as a diary]]>
+      </description>
+    </item>
+    <item>
       <title>Aktionenhandel</title>
       <pubDate>Sat, 14 Oct 2020 22:00 +0200</pubDate>
-      <link>https://taire.de/rss/rss.xml</link>
+      <link>https://taire.de/misc/aktionenhandel.html</link>
       <description>
         <![CDATA[ A new poem from my old blog, finally on taire.de again. Is in German tho.]]>
       </description>
@@ -22,7 +30,7 @@
     <item>
       <title>New Feed, who dis?</title>
       <pubDate>Sat, 12 Sep 2020 22:00 +0200</pubDate>
-      <link>https://taire.de/rss/rss.xml</link>
+      <link>https://taire.de/rss.xml</link>
       <description>
         <![CDATA[ <img width="800" height="200" 
 src="https://taire.de/archive" alt="Hello World!" loading="lazy" 
