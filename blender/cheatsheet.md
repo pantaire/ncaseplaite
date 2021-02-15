@@ -13,7 +13,6 @@
 [N]             open property menu   (menu on the right)  
 [~]             open pie menu for viewport (also accesible via numpad)  
 
-
 # Selecting  
 
 [A]             Select everything / whole object   
@@ -22,13 +21,14 @@
 [Ctrl] + [I]    Invert Selection  
 [H]             Hide selected object  
 [Alt] + [H]     Show hidden object  
+[Alt] + [LC]    Select ring/loop  
 
 # Object Manipulation  
 
 [Tab]             Switch between last used modes (e.g. edit/object mode)  
-[Shift] + [Z]     Switch between last used views (e.g. wireframe/solid/rendered)
-[Shift] + [D]     Duplicate object  
-[Shift] + [R]     Add middle vertex, subdivide vertices 
+[Shift] + [Z]     Switch between last used views (e.g. wireframe/solid/rendered)  
+[Shift] + [D]     Duplicate object   
+[Shift] + [R]     Add middle vertex, subdivide vertices   
 [Ctrl] + [A]      Morph around vertex (like Scale [S])   
 [Esc] / [RC]      Snap back to last position  
 [S] + [Axis] [-1] Mirror object on [Axis]    
@@ -60,9 +60,10 @@ drag corner     add window (split view)
 [Numpad 0]      snap in/out of camera viewpoint  
 [Shift] + [F]   Fly camera (navigate with W,A,S,D) ?  
 [MM] + [G]      Move Camera (camera must be selected!)  
-[Alt] + [MM]    Drag to snap to next axis  
+[Alt] + [MM]    Drag to snap to next axis, click to set view center to mouse position  
 [Ctrl] + [MM]   Move up/down to zoom 
 [Shift] + [MM]  Drag View
+
 
 [MM]    Drag viewpoint, click to jump to view (object mode only)  
 
@@ -94,6 +95,9 @@ move down the line and bake mesh, particles,... (must be checked to be effective
 [C]     Clay Mode  
 [G]     Grab Mode  
 
+## Merging stuff  
+[Ctrl] + [J]            Join Objects  
+Sculptmode -> Remesh    to delete inner faces and get quads (but kindof destroys topology)
 
 # Vocabs
 
