@@ -51,7 +51,10 @@
 
 # Vertices  
  
-[Alt] + [M]     Merge Vertices (must be in edit mode)  
+[Alt] + [M]     Merge Vertices (must be in edit mode)   
+[K]             Knife (cut vertex)  
+[K] + [Z]       Cut along midline of connecting vertices  
+[K] + [Alt]     Change number of cutting points   
 
 # Viewport/Camera  
 
@@ -63,6 +66,7 @@ drag corner     add window (split view)
 [Alt] + [MM]    Drag to snap to next axis, click to set view center to mouse position  
 [Ctrl] + [MM]   Move up/down to zoom 
 [Shift] + [MM]  Drag View
+[Ctrl] + [Space]    Toggle Full Screen on active window
 
 
 [MM]    Drag viewpoint, click to jump to view (object mode only)  
@@ -97,7 +101,10 @@ move down the line and bake mesh, particles,... (must be checked to be effective
 
 ## Merging stuff  
 [Ctrl] + [J]            Join Objects  
-Sculptmode -> Remesh    to delete inner faces and get quads (but kindof destroys topology)
+Sculptmode -> Remesh    to delete inner faces and get quads (but kindof destroys topology)  
+[Ctrl] + [Shift] + [B]  join meshes, booltool must be enabled (Edit -> Preferences -> Booltool)  
+                            - union: delete inner mesh  
+                            - intersect: only keep middle  
 
 # Vocabs
 
