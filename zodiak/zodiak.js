@@ -1,138 +1,127 @@
- zodiacs = [
-    {
-    name: "aries",
-    sun:  "Ram horns regardless of gender, strong foreheads, and bones stronger than usual since they're prone to injury",
-    moon: ["Pyrokinesis","quick self healing factor","prerecognition"],
-    colour1: "red",
-    colour2: "orange",
-    hair: "often curly in natural colours",
-    eyes: "warm red or bright orange",
-    height: "average height or smaller",
-    special: ""
-    },
-    {
-    name: "taurus",
-    sun:  "Bull horns regardless of gender, large hands in proportion to their bodies, and stomachs and immune system allow them to eat anything without harm",
-    moon: ["Super strenght","stone manipulation", "can communicate with any mammal"],
-    colour1: "brown",
-    colour2: "green",
-    hair: "often thick and usually black, green or brown",
-    eyes: "can be any colour",
-    height: "often either chubby or beefy physique",
-    special: ""
-    },
-    {
-    name: "gemini",
-    sun:  "Second set of arms, eyes can zoom in and out of long range distant range, and have much easier time learning new languages than others",
-    moon: ["Super speed","can shapeshift into any human form", "physical duplication"],
-    colour1: "light blue",
-    colour2: "yellow",
-    hair: "any unnatural colour",
-    eyes: "can be any colour",
-    height: "physique varies",
-    special: "long legs proportionate to their height"
-    },
-    {
-    name: "cancer",
-    sun:  "Hands can morph into crab claws in [rising] colour, skin glitters when exposed to moonlight, all of them are empaths",
-    moon: ["control tides","produce and shoot lunar beams","can only be accessed at night","psychic absorption (can absorb and use one power at a time, this only tires the victim)","producing physical fields"],
-    colour1: "silver",
-    colour2: "shades of blue",
-    hair: "either blue or black",
-    eyes: "either colour",
-    height: "tend to be short",
-    special: ""
-    },
-    {
-    name: "leo",
-    sun:  "Feline like canines, nails are long and strong like claws, skin glitters when exposed to sunlight",
-    moon: ["produce and shoot solar beams","control heat","can only be accessed during the day","laser eyes","sonic boom roar (can physically push away anything in its close range)"],
-    colour1: "gold",
-    colour2: "red",
-    hair: "almost always big, no matter the length",
-    eyes: "often gold",
-    height: "either really tall or really short",
-    special: ""
-    },
-    {
-    name: "virgo",
-    sun:  "Large feathered wings in [rising] colour, look human otherwise",
-    moon: ["Portal creation","telekinesis","poison manipulation"],
-    colour1: "green",
-    colour2: "yellow",
-    hair: "either brown or black base with any second colour",
-    eyes: "can be any colour",
-    height: "physique varies",
-    special: "all have longer than average fingers"
-    },
-    {
-    name: "libra",
-    sun:  "Skin on the hands and forearms are metallic gold or silver, have glowing eyes in [rising] colour, can always tell if you're lying",
-    moon: ["Plant manipulation","siren song", "sonic scream (can stun any living being in its range and break close enough objects"],
-    colour1: "green",
-    colour2: "pink",
-    hair: "either white, brown or pink",
-    eyes: "either pink or yellow",
-    height: "often tall",
-    special: "wide hips regardless of gender"
-    },
-    {
-    name: "scorpio",
-    sun:  "Fully funtional scorpion tail (proportinate to body), can easily see in the dark, very silent walkers who can sneak up on anyone",
-    moon: ["shadow manipulation","mediumship (includes dead and powerful spirits)","selective mind reading (can't communicate mentally)"],
-    colour1: "black",
-    colour2: "red",
-    hair: "can be any dark colour",
-    eyes: "either dark blue or bright red",
-    height: "",
-    special: "can blend in easily with their surroundings"
-    },
-    {
-    name: "sagittarius",
-    sun:  "Can switch from biped to centaur and back, keeps their tail in any form, hair grows long and fast",
-    moon: ["Can shoot energy arrows or spears","light manipulation","power jump (as far as 50ft off the ground"],
-    colour1: "orange",
-    colour2: "brown",
-    hair: "red or dirty blond",
-    eyes: "can be either colour",
-    height: "often tall",
-    special: "short ones are faster runners"
-    },
-    {
-    name: "capricorn",
-    sun:  "Goat horns, legs and hooves, pretty much satyrs",
-    moon: ["ice manipulation","telepathy","temporarily slow time"],
-    colour1: "brown",
-    colour2: "black",
-    hair: "can be any secondary colour",
-    eyes: "can be any secondary colour",
-    height: "often average height",
-    special: "very fit physique, throw some of the hardest punches"
-    },
-    {
-    name: "aquarius",
-    sun:  "Are the most human looking of the signs but they always have at least one robotic body enhancement, can retain more information thatn the others",
-    moon: ["Electric manipulation","technopathy","wind manipulation"],
-    colour1: "electric blue",
-    colour2: "black",
-    hair: "can be any bright unnatural colour",
-    eyes: "are any shade of blue",
-    height: "often tall but body type varies",
-    special: ""
-    },
-    {
-    name: "pisces",
-    sun:  "Can switch from biped to mermaid and back, scale colours in [rising] colour, have a set of gills that closes on land, often have scales grown on stray parts of their body that shows even on land",
-    moon: ["Water manipulation","aura manipulation","invisibility"],
-    colour1: "sea green",
-    colour2: "lavender",
-    hair: "can be any shade of blue or purple",
-    eyes: "can be either colour",
-    height: "physique varies",
-    special: "large glossy eyes"
-    }    
-];
 function displayResult() {
-    sun = document.getElementById("sun").value;
-    document.getElementById("inputHere").innerHTML = sun;
+
+    sun = {
+        aries:          "Ram horns regardless of gender, strong foreheads, and bones stronger than usual since they're prone to injury",
+        taurus:         "Bull horns regardless of gender, large hands in proportion to their bodies, and stomachs and immune system allow them to eat anything without harm",
+        gemini:         "Second set of arms, eyes can zoom in and out of long range distant range, and have much easier time learning new languages than others",
+        cancer:         "Hands can morph into crab claws, skin glitters when exposed to moonlight, all of them are empaths",
+        leo:            "Feline like canines, nails are long and strong like claws, skin glitters when exposed to sunlight",
+        virgo:          "Large feathered wings, looks human otherwise",
+        libra:          "skin on the hands and forearms are metallic gold or silver, has glowing eyes, can always tell if you're lying",
+        scorpio:        "Fully funtional scorpion tail (proportinate to body), can easily see in the dark, very silent walkers who can sneak up on anyone",
+        sagittarius:    "Can switch from biped to centaur and back, keeps their tail in any form, hair grows long and fast",
+        capricorn:      "Goat horns, legs and hooves, pretty much satyrs",
+        aquarius:       "Are the most human looking of the signs but they always have at least one robotic body enhancement, can retain more information than the others",
+        pisces:         "Can switch from biped to mermaid and back, scale colours, have a set of gills that closes on land, often have scales grown on stray parts of their body that shows even on land"
+    }
+    abilities = {
+        aries:          "Pyrokinesis, quick self healing factor, rerecognition",
+        taurus:         "Super strenght, stone manipulation, can communicate with any mammal",
+        gemini:         "Super speed, can shapeshift into any human form, physical duplication",
+        cancer:         "control tides, produce and shoot lunar beams (can only be accessed at night), psychic absorption (can absorb and use one power at a time, this only tires the victim), producing physical fields",
+        leo:            "produce and shoot solar beams, control heat (can only be accessed during the day), laser eyes, sonic boom roar (can physically push away anything in its close range)",
+        virgo:          "Portal creation, telekinesis, poison manipulation",
+        libra:          "Plant manipulation, siren song, sonic scream (can stun any living being in its range and break close enough objects)",
+        scorpio:        "shadow manipulation, mediumship (includes dead and powerful spirits), selective mind reading (can't communicate mentally)",
+        sagittarius:    "Can shoot energy arrows or spears, light manipulation, power jump (as far as 50ft off the ground",
+        capricorn:      "ice manipulation, telepathy, temporarily slow time",
+        aquarius:       "Electric manipulation, technopathy, wind manipulation",
+        pisces:         "Water manipulation, aura manipulation, invisibility"
+    }
+    colours = {
+        aries:          "red and orange",
+        taurus:         "brown and green",
+        gemini:         "light blue and yellow",
+        cancer:         "silver and various shades of blue",
+        leo:            "gold and red",
+        virgo:          "green and yellow",
+        libra:          "green and pink",
+        scorpio:        "black and red",
+        sagittarius:    "orange and brown",
+        capricorn:      "brown and black",
+        aquarius:       "electric blue and black",
+        pisces:         "see green and lavender"
+    }
+    hair = {
+        aries:          "often curly in natural colours",
+        taurus:         "often thick and usually black, green or brown",
+        gemini:         "any unnatural colour",
+        cancer:         "either blue or black",
+        leo:            "almost always big, no matter the length",
+        virgo:          "either brown or black base with any second colour",
+        libra:          "either white, brown or pink",
+        scorpio:        "can be any dark colour",
+        sagittarius:    "red or dirty blond",
+        capricorn:      "can be any secondary colour",
+        aquarius:       "can be any bright unnatural colour",
+        pisces:         "can be any shade of blue or purple"
+    }
+    eyes = {
+        aries:          "warm red or bright orange",
+        taurus:         "can be any colour",
+        gemini:         "can be any colour",
+        cancer:         "either blue or black",
+        leo:            "often gold, hints of brown or orange",
+        virgo:          "can be any colour",
+        libra:          "either pink or yellow",
+        scorpio:        "either dark blue or bright red",
+        sagittarius:    "either brown or orange",
+        capricorn:      "can be any secondary colour",
+        aquarius:       "any shade of blue",
+        pisces:         "can be either blue or purple"
+    }
+    appearance = {
+        aries:          "average height or smaller",
+        taurus:         "often either chubby or beefy physiqu",
+        gemini:         "physique varies",
+        cancer:         "tends to be short",
+        leo:            "either really tall or really short",
+        virgo:          "physique varies",
+        libra:          "often tall",
+        scorpio:        "physique varies",
+        sagittarius:    "often tall",
+        capricorn:      "often average height",
+        aquarius:       "often tall but body type varies",
+        pisces:         "physique varies"
+    }
+    special = {
+        aries:          "",
+        taurus:         "",
+        gemini:         "long legs proportionate to their height",
+        cancer:         "",
+        leo:            "",
+        virgo:          "all have longer than average fingers",
+        libra:          "wide hips regardless of gender",
+        scorpio:        "can blend in easily with their surroundings",
+        sagittarius:    "short ones are faster runners",
+        capricorn:      "very fit physique, throws some of the hardest punches",
+        aquarius:       "",
+        pisces:         "large glossy eyes"
+    }
+
+    displaySun      = document.getElementById("sun").value;
+    displayMoon     = document.getElementById("moon").value;
+    displayRising   = document.getElementById("rising").value;
+    console.log("this is currently stuck at displaying the same values over and over. i know. pls send help via mail to zodiak@taire.de thanks. probably something wrong with escaping")
+    console.log(displaySun);
+
+    if (displaySun === "taurus") {
+        console.log("is taurus");
+    }
+    switch(displaySun) {
+        case '"taurus"':
+          console.log("taurus ololo");
+          break;
+        case "capricorn":
+          console.log("capricorn ololo")
+          break;
+        default:
+          console.log("asef")
+      } 
+
+    document.getElementById("colours").innerHTML = colours.pisces;
+    document.getElementById("hair").innerHTML = hair.pisces;
+    document.getElementById("eyes").innerHTML = eyes.pisces;
+    document.getElementById("appearance").innerHTML = appearance.pisces;
+    document.getElementById("attributes").innerHTML = special.pisces;
 }
