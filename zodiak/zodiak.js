@@ -105,19 +105,9 @@ function displayResult() {
     console.log("this is currently stuck at displaying the same values over and over. i know. pls send help via mail to zodiak@taire.de thanks. probably something wrong with escaping")
     console.log(displaySun);
 
-    if (displaySun === "taurus") {
-        console.log("is taurus");
+    if (displaySun.includes("taurus")) {
+        document.getElementById("colours").innerHTML = colours.taurus;
     }
-    switch(displaySun) {
-        case '"taurus"':
-          console.log("taurus ololo");
-          break;
-        case "capricorn":
-          console.log("capricorn ololo")
-          break;
-        default:
-          console.log("asef")
-      } 
 
     document.getElementById("colours").innerHTML = colours.pisces;
     document.getElementById("hair").innerHTML = hair.pisces;
