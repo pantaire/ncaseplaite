@@ -72,7 +72,7 @@ function displayResult() {
     }
     physique = {
         aries:          "average height or smaller",
-        taurus:         "often either chubby or beefy physiqu",
+        taurus:         "often either chubby or beefy physique",
         gemini:         "physique varies",
         cancer:         "tends to be short",
         leo:            "either really tall or really short",
@@ -102,12 +102,8 @@ function displayResult() {
     displaySun      = document.getElementById("sun").value;
     displayMoon     = document.getElementById("moon").value;
     displayRising   = document.getElementById("rising").value;
-    console.log("this is currently stuck at displaying the same values over and over. i know. pls send help via mail to zodiak@taire.de thanks. probably something wrong with escaping")
-    console.log(displaySun);
 
-    if (displaySun.includes("taurus")) {
-        document.getElementById("colours").innerHTML = colours.taurus;
-    }
+    document.getElementById("result").style.display = 'block';
 
     document.getElementById("colours").innerHTML = colours[displayRising];
     document.getElementById("hair").innerHTML = hair[displayRising];
