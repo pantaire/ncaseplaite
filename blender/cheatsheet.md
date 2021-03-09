@@ -29,15 +29,14 @@
 [Shift] + [Z]     Switch between last used views (e.g. wireframe/solid/rendered)  
 [Shift] + [D]     Duplicate object   
 [Shift] + [R]     Add middle vertex, subdivide vertices   
-[Ctrl] + [A]      Morph around vertex (like Scale [S])   
+[Ctrl] + [A]      Morph around vertex (like Scale [S]), useful when sculpting and brush is stretched   
 [Esc] / [RC]      Snap back to last position  
 [S] + [Axis] [-1] Mirror object on [Axis]    
 [S] + [Axis] [0]  Align object on [Axis]   
 
-[F]             Fill distance (hook points must be selscted)  
+[F]             Fill distance (hook points must be selected)  
 
 [Ctrl] + [Num]  Add [Num] amount of subdivisions  
-
 
 [G]     grab active object  
 [R]     rotate active object  
@@ -91,9 +90,12 @@ Bake: Set from [replay] to [modular], bake Fluid first
 move down the line and bake mesh, particles,... (must be checked to be effective)  
 
 # Sculpting
+(hotkeys are visible on hover)
+If brush seems to be not round, apply scale in Object mode  
 
-[F]     Resize Brush  
+[F]     Resize Brush   
 [Ctrl]  Change Brush Direction (subtract/add), must stay pressed to take effect  
+
 
 [X]     Draw Mode  
 [C]     Clay Mode  

@@ -1,6 +1,6 @@
 function displayResult() {
 
-    sun = {
+    appearance = {
         aries:          "Ram horns regardless of gender, strong foreheads, and bones stronger than usual since they're prone to injury",
         taurus:         "Bull horns regardless of gender, large hands in proportion to their bodies, and stomachs and immune system allow them to eat anything without harm",
         gemini:         "Second set of arms, eyes can zoom in and out of long range distant range, and have much easier time learning new languages than others",
@@ -70,7 +70,7 @@ function displayResult() {
         aquarius:       "any shade of blue",
         pisces:         "can be either blue or purple"
     }
-    appearance = {
+    physique = {
         aries:          "average height or smaller",
         taurus:         "often either chubby or beefy physiqu",
         gemini:         "physique varies",
@@ -109,9 +109,10 @@ function displayResult() {
         document.getElementById("colours").innerHTML = colours.taurus;
     }
 
-    document.getElementById("colours").innerHTML = colours.pisces;
-    document.getElementById("hair").innerHTML = hair.pisces;
-    document.getElementById("eyes").innerHTML = eyes.pisces;
-    document.getElementById("appearance").innerHTML = appearance.pisces;
-    document.getElementById("attributes").innerHTML = special.pisces;
+    document.getElementById("colours").innerHTML = colours[displayRising];
+    document.getElementById("hair").innerHTML = hair[displayRising];
+    document.getElementById("eyes").innerHTML = eyes[displayRising];
+    document.getElementById("physique").innerHTML = physique[displayRising];
+    document.getElementById("appearance").innerHTML = appearance[displaySun];
+    document.getElementById("abilities").innerHTML = abilities[displayMoon];
 }

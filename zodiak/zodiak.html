@@ -31,73 +31,80 @@
 		</h2>
 
 		<div id="post">
-			<div>
-				<p>I keep phantasizing about how cool it would be if humans were supernatural creatures and their powers
+			<div class="box">
+				<p class="quote">I keep phantasizing about how cool it would be if humans were supernatural creatures and their powers
 					and physical features were based on their sun, moon and rising sign</p>
 				<p> ~ littledarkfairywitch on tumblr</p>
-			</div>
-			<div>
-				Insert explanation from table in here
 			</div>
 			<div>
 				<h2>Pick your zodiak signs</h2>
 				<form>
 					Sun:
 					<select id="sun">
-						<option value=”aquarius”>Aquarius</option>
-						<option value=”pisces”>Pisces</option>
-						<option value=”aries”>Aries</option>
-						<option value=”taurus”>Taurus</option>
-						<option value=”gemini”>Gemini</option>
-						<option value=”cancer”>Cancer</option>
-						<option value=”leo”>Leo</option>
-						<option value=”virgo”>Virgo</option>
-						<option value=”libra”>Libra</option>
-						<option value=”scorpio”>Scorpio</option>
-						<option value=”sagittarius”>Sagittarius</option>
-						<option value=”capricorn”>Capricorn</option>
+						<option value=aquarius>Aquarius</option>
+						<option value=pisces>Pisces</option>
+						<option value=aries>Aries</option>
+						<option value=aurus>Taurus</option>
+						<option value=gemini>Gemini</option>
+						<option value=cancer>Cancer</option>
+						<option value=leo>Leo</option>
+						<option value=virgo>Virgo</option>
+						<option value=libra>Libra</option>
+						<option value=scorpio>Scorpio</option>
+						<option value=sagittarius>Sagittarius</option>
+						<option value=capricorn>Capricorn</option>
 					</select>
+					<br>
 					Moon:
 					<select id="moon">
-						<option value=”aquarius”>Aquarius</option>
-						<option value=”pisces”>Pisces</option>
-						<option value=”aries”>Aries</option>
-						<option value=”taurus”>Taurus</option>
-						<option value=”gemini”>Gemini</option>
-						<option value=”cancer”>Cancer</option>
-						<option value=”leo”>Leo</option>
-						<option value=”virgo”>Virgo</option>
-						<option value=”libra”>Libra</option>
-						<option value=”scorpio”>Scorpio</option>
-						<option value=”sagittarius”>Sagittarius</option>
-						<option value=”capricorn”>Capricorn</option>
+						<option value=aquarius>Aquarius</option>
+						<option value=pisces>Pisces</option>
+						<option value=aries>Aries</option>
+						<option value=aurus>Taurus</option>
+						<option value=gemini>Gemini</option>
+						<option value=cancer>Cancer</option>
+						<option value=leo>Leo</option>
+						<option value=virgo>Virgo</option>
+						<option value=libra>Libra</option>
+						<option value=scorpio>Scorpio</option>
+						<option value=sagittarius>Sagittarius</option>
+						<option value=capricorn>Capricorn</option>
 					</select>
+					<br>
 					Rising:
 					<select id="rising">
-						<option value=”aquarius”>Aquarius</option>
-						<option value=”pisces”>Pisces</option>
-						<option value=”aries”>Aries</option>
-						<option value=”taurus”>Taurus</option>
-						<option value=”gemini”>Gemini</option>
-						<option value=”cancer”>Cancer</option>
-						<option value=”leo”>Leo</option>
-						<option value=”virgo”>Virgo</option>
-						<option value=”libra”>Libra</option>
-						<option value=”scorpio”>Scorpio</option>
-						<option value=”sagittarius”>Sagittarius</option>
-						<option value=”capricorn”>Capricorn</option>
+						<option value=aquarius>Aquarius</option>
+						<option value=pisces>Pisces</option>
+						<option value=aries>Aries</option>
+						<option value=aurus>Taurus</option>
+						<option value=gemini>Gemini</option>
+						<option value=cancer>Cancer</option>
+						<option value=leo>Leo</option>
+						<option value=virgo>Virgo</option>
+						<option value=libra>Libra</option>
+						<option value=scorpio>Scorpio</option>
+						<option value=sagittarius>Sagittarius</option>
+						<option value=capricorn>Capricorn</option>
 					</select>
-					<input type="button" onclick="displayResult()" value="Go🌠">
+					<br>
+					<br>
+					<input type="button" class="button" onclick="displayResult()" value="Go🌠">
 				</form>
 			</div>
 			<div id="result">
+				<hr>
 				<h2>Your character</h2>
 				Main Colours: <span id="colours"></span><br>
 				Hair: <span id="hair"></span><br>
 				Eyes: <span id="eyes"></span><br>
+				Physique: <span id="physique"></span><br>
 				Appearance: <span id="appearance"></span><br>
-				Attributes: <span id="attributes"></span><br>
+				Abilities: <span id="abilities"></span><br>
 			</div>
+			<br>
+			<a href="https://taire.de/zodiak/table.html">
+				<input type="button" value="All character options as a table">
+			</a>
 		</div>
 	</div>
 </body>
