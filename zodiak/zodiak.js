@@ -3,7 +3,7 @@ function displayResult() {
     appearance = {
         aries:          "Ram horns regardless of gender, strong foreheads, and bones stronger than usual since they're prone to injury",
         taurus:         "Bull horns regardless of gender, large hands in proportion to their bodies, and stomachs and immune system allow them to eat anything without harm",
-        gemini:         "Second set of arms, eyes can zoom in and out of long range distant range, and have much easier time learning new languages than others",
+        gemini:         "Second set of arms, eyes can zoom in and out of long range, and have much easier time learning new languages than others",
         cancer:         "Hands can morph into crab claws, skin glitters when exposed to moonlight, all of them are empaths",
         leo:            "Feline like canines, nails are long and strong like claws, skin glitters when exposed to sunlight",
         virgo:          "Large feathered wings, looks human otherwise",
@@ -12,11 +12,11 @@ function displayResult() {
         sagittarius:    "Can switch from biped to centaur and back, keeps their tail in any form, hair grows long and fast",
         capricorn:      "Goat horns, legs and hooves, pretty much satyrs",
         aquarius:       "Are the most human looking of the signs but they always have at least one robotic body enhancement, can retain more information than the others",
-        pisces:         "Can switch from biped to mermaid and back, scale colours, have a set of gills that closes on land, often have scales grown on stray parts of their body that shows even on land"
+        pisces:         "Can switch from biped to mermaid and back, have a set of gills that closes on land, often have scales grown on stray parts of their body that shows even on land"
     }
     abilities = {
         aries:          "Pyrokinesis, quick self healing factor, rerecognition",
-        taurus:         "Super strenght, stone manipulation, can communicate with any mammal",
+        taurus:         "Super strength, stone manipulation, can communicate with any mammal",
         gemini:         "Super speed, can shapeshift into any human form, physical duplication",
         cancer:         "control tides, produce and shoot lunar beams (can only be accessed at night), psychic absorption (can absorb and use one power at a time, this only tires the victim), producing physical fields",
         leo:            "produce and shoot solar beams, control heat (can only be accessed during the day), laser eyes, sonic boom roar (can physically push away anything in its close range)",
