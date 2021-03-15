@@ -5,7 +5,6 @@
 [MM] = middle mouse button (scrolling wheel)  
 
 # Access Menus  
-
 [Shift] + [A]   open add menu (object mode only)  
 [Z]             open solid/wireframe/... menu   
 [Shift] + [S]   open cursor pie menu  
@@ -14,7 +13,6 @@
 [~]             open pie menu for viewport (also accesible via numpad)  
 
 # Selecting  
-
 [A]             Select everything / whole object   
 [C]             Select circle (rightclick to select, middle mouse button to de-select)  
 [Alt] + [LC]    Select loop   
@@ -24,7 +22,6 @@
 [Alt] + [LC]    Select ring/loop  
 
 # Object Manipulation  
-
 [Tab]             Switch between last used modes (e.g. edit/object mode)  
 [Shift] + [Z]     Switch between last used views (e.g. wireframe/solid/rendered)  
 [Shift] + [D]     Duplicate object   
@@ -49,14 +46,12 @@
 [Ctrl] + [P]    select child, select parent (by pressing Shift) -> Ctrl P -> context menu opens, choose options  
 
 # Vertices  
- 
 [Alt] + [M]     Merge Vertices (must be in edit mode)   
 [K]             Knife (cut vertex)  
 [K] + [Z]       Cut along midline of connecting vertices  
 [K] + [Alt]     Change number of cutting points   
 
 # Viewport/Camera  
-
 drag corner     add window (split view)
 [Numpad 1-9]    Navigate camera  
 [Numpad 0]      snap in/out of camera viewpoint  
@@ -72,18 +67,15 @@ drag corner     add window (split view)
 
 
 # Cursor
-
 [Shift] + [RC]  move cursor (the point where new objects are created)   
 [Shift] + [C]   move cursor to center ( coordinates: 0,0,0)  
 [Shift] + [S]   open cursor pie menu  
 
 # Modifiers
-
 Always apply from top down, and don't forget to apply!  
 
 
 # Simulation
-
 Cache: bring to replay to get a first overview over the simulation  
 Apply changes/empty cache: Click on a setting and hit enter, cache is emptied automatically  
 Bake: Set from [replay] to [modular], bake Fluid first  
@@ -94,9 +86,9 @@ move down the line and bake mesh, particles,... (must be checked to be effective
 If brush seems to be not round, apply scale in Object mode  
 
 [F]     Resize Brush   
-[Ctrl]  Change Brush Direction (subtract/add), must stay pressed to take effect  
-
-
+[Ctrl]  Change Brush Direction (subtract/add), must stay pressed to take effect   
+  
+  
 [X]     Draw Mode  
 [C]     Clay Mode  
 [G]     Grab Mode  
@@ -107,6 +99,33 @@ Sculptmode -> Remesh    to delete inner faces and get quads (but kindof destroys
 [Ctrl] + [Shift] + [B]  join meshes, booltool must be enabled (Edit -> Preferences -> Booltool)  
                             - union: delete inner mesh  
                             - intersect: only keep middle  
+
+# 2D Animation / Grease Pencil
+[Shift] + [F]       change strength (as opposed to radius with F)
+[U]                 change active normal material   
+[Y]                 change active layer  
+[I]                 insert frame  
+[H]                 hide active layer  
+[Shift] + [H]       hide inactive layers  
+[Alt] + [H]         unhide everything  
+[Alt]               hold down to draw straight horizontal/vertical lines  
+[Shift]             draw straight lines
+[Shift] + [Alt]     draw straight lines, but extend on both sides when drawing. works for circles and boxes too  
+[Ctrl]              hold down to erase  
+[Ctrl] + [Alt]      hold down for lasso tool to loop erase  
+[Alt] + [S]         Change Stroke radius    
+
+[L]                     Select linked  
+[Shift] + [G]           Select grouped  
+[Ctrl] + [Numpad +/-]   Select more/less points  
+
+
+# Timelines
+use normal modification (g, s, e, ...) to modify timeline and keyframes  
+[B]             Box Select
+[C]             Circle Select
+[Shift] + [R]   Repeat last action
+
 
 # Vocabs
 
