@@ -12,6 +12,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=450">
 	<link rel="icon" type="image/png" href="favicon.ico" />
+	<script src="main.js"></script>
 
 	<!-- STYLING -->
 	<link rel="stylesheet" href="css/index.css" />
@@ -22,6 +23,11 @@
 
 	<!-- NAV/LINKS -->
 	<div id="header">
+		<div id="sidetoggle" onclick="myFunction(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		  </div>
 		<div id="nav">
 			<span id="nav_names">taire.</span>
 			<span id="nav_buttons">
@@ -33,9 +39,7 @@
 	</div>
 
 	<!--SIDE NAV-->
-	<div id="mySidenav" class="sidenav grad">
-		<!--a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a-->
-		<br>
+	<div id="sidenav" class="sidenav grad">
 		<a href="#hosted">Hosted</a><br>
 		<a href="#blender">Blender</a><br>
 		<a href="#misc">Other Stuff</a><br>
