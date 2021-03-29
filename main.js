@@ -1,5 +1,3 @@
-
-
 function myFunction(x) {
     sidenav = document.getElementById("sidenav");
     if (sidenav.style.display === "block") {
