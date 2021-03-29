@@ -1,3 +1,18 @@
+:root {
+	--header: #000;
+	--accent: red;
+	--link: red;
+	--link-hover: darkred;
+	--nav-link: #666;
+	--nav-spacer: #333;
+	--nav-link-hover: #fff;
+	--sidenav-left: rgb(122, 121, 121);
+	--sidenav-right: rgba(0, 0, 0, 0);
+	--input-font: #fff;
+	--font: #000;
+}
+
+
 /** Font Faces**/
 @font-face {
 	font-family: 'Open Sans';
@@ -5,26 +20,21 @@
 	font-weight: 100;
 	src: url(font/OpenSans-Light.ttf) format('truetype');
 }
-/*@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 700;
-	src: url(font/OpenSans-Bold.ttf) format('truetype');
-}*/
 
 body{
 	margin:0;
 	background: #fff;
 	font-family: 'Open Sans';
 	font-size: 25px;
+
 	font-weight: 100;
 }
 a{
-	color: red;
+	color: var(--link);
 	text-decoration: none;
 }
 a:hover{
-	color: darkred;
+	color: var(--link-hover);
 }
 a.homelink{
 	color:inherit;
@@ -35,13 +45,11 @@ a.homelink:hover{
 
 /** HEADER **/
 #header{
-	
 	width:100%;
 	overflow: hidden;
 	text-align: center;
 	background: #000;
 	color: #fff;
-	
 }
 #nav{
 	width: 100%;
@@ -61,14 +69,13 @@ a.homelink:hover{
 	position: absolute;
 	right:0;
 	bottom:30px;
-	color:#333;
+	color: var(--nav-spacer);
 	font-size: 25px;
 	letter-spacing: 1px;
 }
 #nav a.navlink{
-	color:#666;
+	color: var(--nav-link);
 	text-decoration: none;
-	
 	-webkit-transition: color 0.2s ease-in-out;
 	-moz-transition: color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out;
@@ -76,7 +83,7 @@ a.homelink:hover{
 	
 }
 #nav a.navlink:hover{
-	color:#fff;
+	color: var(--nav-link-hover);
 }
 @media (max-width: 800px){
 	#nav{
@@ -109,6 +116,24 @@ hr{
 border-radius: 15px;
 border: 1px solid #ddd;
 }
+
+/** SIDE NAV **/
+
+.sidenav {
+	height: 100%; 
+	width: 30%; 
+	position: fixed;
+	z-index: -1; 
+	top: 0; 
+	left: 0;
+	/*border-left: thick solid;*/
+	overflow-x: hidden;
+	padding-top: 150px;
+}
+
+.grad {
+	background-image: linear-gradient(to right, var(--sidenav-left), var(--sidenav-right));
+  }
 /** CONTENT **/
 
 /** post for blog entries**/
@@ -121,7 +146,7 @@ border: 1px solid #ddd;
 	padding: 20px 0;
 }
 .box {
-	color:#000!important;
+	color: var(--font);
 	background-color:#f1f1f1!important;
 	padding:0.01em 16px;
 	margin-top:16px;
@@ -131,9 +156,9 @@ border: 1px solid #ddd;
 	font-weight: lighter;
 }
 input {
-	background-color: red;
+	background-color: var(--accent);
 	border: none;
-	color: white;
+	color: var(--input-font);
 	padding: 10px 10px;
 	text-align: center;
 	text-decoration: none;
