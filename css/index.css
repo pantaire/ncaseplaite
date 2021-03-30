@@ -50,7 +50,7 @@ a.homelink:hover{
 /** HEADER **/
 
 #sidetoggle {
-	position: absolute;
+	position: fixed;
 	left: 3%;
 	top: 3%;
 	z-index: 5;
@@ -141,7 +141,7 @@ hr{
 	height: 100%; 
 	width: 30%; 
 	position: fixed;
-	z-index: -1; 
+	z-index: 1; 
 	top: 0; 
 	left: 0;
 	/*border-left: thick solid;*/
