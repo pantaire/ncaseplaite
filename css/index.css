@@ -286,6 +286,9 @@ h1, h2, h3, h4 {
 img{
 	width: 388px;
 }
+#summary {
+	font-size: smaller;
+}
 #post > ul > li > span{
 	color:#aaa;
 	display: block;
@@ -315,6 +318,7 @@ img{
 	-moz-transition: opacity 0.2s ease-in-out;
 	-ms-transition: opacity 0.2s ease-in-out;
 	transition: opacity 0.2s ease-in-out;
+	/* box-shadow: 3px 3px 30px var(--sidenav-font-hover); */
 }
 #content > a:first-child > div{
 	margin-top:20px;
@@ -351,9 +355,7 @@ img{
 	margin-bottom: 25px;
 	color: var(--link-hover);
 	text-decoration: none;
-	
 }
-
 
 /** FOOTER **/
 #footer{
