@@ -33,7 +33,7 @@
 	--small-side-color:	 	rgb(34, 34, 34);
 	--input-font:		 	#fff;
 	--box-font: 		 	#fff;
-	--box: 					#999;
+	--box: 					rgb(187, 187, 187);
 } 
 
 
@@ -251,6 +251,7 @@ hr{
 	padding:0.01em 16px;
 	margin-top:16px;
 	margin-bottom:16px;
+	box-shadow: 5px 10px var(--link);
 }
 .quote {
 	font-weight: lighter;
