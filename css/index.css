@@ -464,7 +464,7 @@ img {
 		color: var(--link);
 	}
 	#footer_banner {
-		background: var(--link-hover);
+		background: var(--box-dark);
 	}
 	.box {
 		background-color: var(--box-dark);
