@@ -72,8 +72,8 @@ body {
 		color: var(--box-font);
 	}
 
-	#content>a>div>div {
-		color: var(--box-font);
+	#content>.section {
+		color: var(--link);
 	}
 	#footer_banner {
 		background: var(--link-hover);
@@ -416,7 +416,7 @@ img {
 }
 
 #content>a>div>div {
-	color: var(--font-dark);
+	color: var(--link);
 	font-size: 18px;
 	line-height: 21px;
 	text-align: left;
