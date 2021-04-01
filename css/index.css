@@ -34,6 +34,8 @@
 	--input-font:		 	#fff;
 	--box-font: 		 	#fff;
 	--box: 					rgb(187, 187, 187);
+	--bg-dark: 			#000;
+	--font-dark: 			#000;
 } 
 
 
@@ -53,6 +55,19 @@ body{
 	z-index: 0;
 
 	font-weight: 100;
+}
+@media (prefers-color-scheme: dark) {
+		img {
+			opacity: .8;
+		}
+		body {
+			background-color: var(--bg-dark);
+			color: var(--font-dark);
+		}
+}
+body.dark {
+	background-color: #000000;
+	color: #fff;
 }
 a{
 	color: var(--link);
