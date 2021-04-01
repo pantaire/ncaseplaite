@@ -34,7 +34,8 @@
 	--small-side-color: rgb(34, 34, 34);
 	--input-font: #fff;
 	--box-font: #fff;
-	--box: rgb(187, 187, 187);
+	--box: #ccc;
+	--box-dark: #222;
 	--bg-dark: #000;
 	--font-dark: #000;
 }
@@ -464,5 +465,8 @@ img {
 	}
 	#footer_banner {
 		background: var(--link-hover);
+	}
+	.box {
+		background-color: var(--box-dark);
 	}
 }
