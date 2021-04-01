@@ -58,28 +58,6 @@ body {
 	font-weight: 100;
 }
 
-@media (prefers-color-scheme: dark) {
-	img {
-		opacity: .8;
-	}
-
-	body {
-		background-color: var(--bg-dark);
-		color: var(--box-font);
-	}
-
-	#content {
-		color: var(--box-font);
-	}
-
-	#content>.section {
-		color: var(--link);
-	}
-	#footer_banner {
-		background: var(--link-hover);
-	}
-}
-
 a {
 	color: var(--link);
 	text-decoration: none;
@@ -155,26 +133,6 @@ a.homelink:hover {
 	color: var(--nav-link-hover);
 }
 
-/* SMALL SCREENS */
-@media (max-width: 800px) {
-	#nav {
-		text-align: center;
-		padding-top: 20px;
-		padding: 20px 0;
-		z-index: 4;
-	}
-
-	#nav_names {
-		width: 100%;
-	}
-
-	#nav_names,
-	#nav_buttons {
-		position: static;
-		display: inline-block;
-	}
-}
-
 strong {
 	font-weight: bold;
 }
@@ -235,35 +193,6 @@ hr {
 	font-size: 36px;
 	margin-left: 50px;
 	z-index: 1;
-}
-
-@media screen and (max-height: 450px) {
-	.sidenav {
-		padding-top: 15px;
-	}
-
-	.sidenav a {
-		font-size: 18px;
-	}
-}
-
-@media (max-width: 1000px) {
-	.grad {
-		z-index: 1;
-		background-image: linear-gradient(to right, var(--small-side-color), var(--small-side-color));
-	}
-
-	.sidenav {
-		width: 100%;
-	}
-
-	.sidenav a {
-		color: var(--nav-link);
-	}
-
-	.sidenav a {
-		color: var(--nav-link);
-	}
 }
 
 /* CLOSE / OPEN SIDEBAR */
@@ -465,8 +394,75 @@ img {
 	margin: 0 auto;
 }
 
+/* SMALL SCREENS */
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+@media (max-width: 1000px) {
+	.grad {
+		z-index: 1;
+		background-image: linear-gradient(to right, var(--small-side-color), var(--small-side-color));
+	}
+
+	.sidenav {
+		width: 100%;
+	}
+
+	.sidenav a {
+		color: var(--nav-link);
+	}
+
+	.sidenav a {
+		color: var(--nav-link);
+	}
+}
 @media (max-width: 800px) {
+	#nav {
+		text-align: center;
+		padding-top: 20px;
+		padding: 20px 0;
+		z-index: 4;
+	}
+
+	#nav_names {
+		width: 100%;
+	}
+
+	#nav_names,
+	#nav_buttons {
+		position: static;
+		display: inline-block;
+	}
+
 	#footer_banner>div {
 		font-size: 16px;
+	}
+}
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+	img {
+		opacity: .8;
+	}
+
+	body {
+		background-color: var(--bg-dark);
+		color: var(--box-font);
+	}
+
+	#content {
+		color: var(--box-font);
+	}
+
+	#content>.section {
+		color: var(--link);
+	}
+	#footer_banner {
+		background: var(--link-hover);
 	}
 }
