@@ -25,7 +25,7 @@
 	--nav-link: #059DC0;
 	--nav-spacer: #003946;
 	--nav-link-hover: #fff;
-	--menubutton-burger: #003946;
+	--menubutton-burger: #059DC0;
 	--menubutton-x: #fff;
 	--sidenav-left: rgba(0, 156, 247, 0.342);
 	--sidenav-right: rgba(0, 0, 0, 0);
@@ -64,17 +64,11 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	color: var(--link-hover);
-}
+a:hover {color: var(--link-hover);}
 
-a.homelink {
-	color: inherit;
-}
+a.homelink {color: inherit;}
 
-a.homelink:hover {
-	color: inherit;
-}
+a.homelink:hover {color: inherit;}
 
 /** HEADER **/
 
@@ -130,20 +124,13 @@ a.homelink:hover {
 	transition: color 0.2s ease-in-out;
 }
 
-#nav a.navlink:hover {
-	color: var(--nav-link-hover);
-}
+#nav a.navlink:hover {color: var(--nav-link-hover);}
 
-strong {
-	font-weight: bold;
-}
+strong {font-weight: bold;}
 
-table {
-	padding-top: 15px;
-}
+table {padding-top: 15px;}
 
-th,
-td {
+th,td {
 	border-bottom: 1px solid #ddd;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -157,9 +144,7 @@ hr {
 }
 
 /** SIDE NAV **/
-.grad {
-	background-image: linear-gradient(to right, var(--sidenav-left), var(--sidenav-right));
-}
+.grad {background-image: linear-gradient(to right, var(--sidenav-left), var(--sidenav-right));}
 
 .sidenav {
 	height: 100%;
@@ -183,9 +168,7 @@ hr {
 	transition: 0.3s;
 }
 
-.sidenav a:hover {
-	color: var(--sidenav-font-hover);
-}
+.sidenav a:hover {color: var(--sidenav-font-hover);}
 
 .sidenav .closebtn {
 	position: absolute;
@@ -197,9 +180,7 @@ hr {
 }
 
 /* CLOSE / OPEN SIDEBAR */
-.bar1,
-.bar2,
-.bar3 {
+.bar1,.bar2,.bar3 {
 	width: 35px;
 	height: 2px;
 	background-color: var(--menubutton-burger);
@@ -214,9 +195,7 @@ hr {
 	background-color: var(--menubutton-x);
 }
 
-.change .bar2 {
-	opacity: 0;
-}
+.change .bar2 {opacity: 0;}
 
 .change .bar3 {
 	-webkit-transform: rotate(45deg) translate(-8px, -8px);
@@ -245,9 +224,7 @@ hr {
 	box-shadow: 5px 10px var(--link);
 }
 
-.quote {
-	font-weight: lighter;
-}
+.quote {font-weight: lighter;}
 
 input {
 	background-color: var(--accent);
@@ -272,13 +249,9 @@ select {
 	border: 1px solid #999;
 	background-color: #fff;
 	border-radius: 5px;
-
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1,h2,h3,h4 {
 	text-transform: uppercase;
 	color: var(--accent);
 }
@@ -287,9 +260,7 @@ img {
 	width: 388px;
 }
 
-#summary {
-	font-size: smaller;
-}
+#summary {font-size: smaller;}
 
 #post>ul>li>span {
 	color: #aaa;
@@ -326,18 +297,14 @@ img {
 	/* box-shadow: 3px 3px 30px var(--sidenav-font-hover); */
 }
 
-#content>a:first-child>div {
-	margin-top: 20px;
-}
+#content>a:first-child>div {margin-top: 20px;}
 
 #content>a {
 	text-decoration: none;
 	display: inline-block;
 }
 
-#content>a:hover>div {
-	opacity: 0.5;
-}
+#content>a:hover>div {opacity: 0.5;}
 
 #content>a>div>img {
 	width: 388px;
@@ -353,9 +320,7 @@ img {
 	width: 100%;
 }
 
-#content>a>div>div>span {
-	color: #aaa;
-}
+#content>a>div>div>span {color: #aaa;}
 
 #content>.section {
 	/*font-weight: 700;*/
@@ -405,24 +370,16 @@ img {
 		font-size: 18px;
 	}
 }
+
 @media (max-width: 1000px) {
 	.grad {
 		z-index: 1;
 		background-image: linear-gradient(to right, var(--small-side-color), var(--small-side-color));
 	}
-
-	.sidenav {
-		width: 100%;
-	}
-
-	.sidenav a {
-		color: var(--nav-link);
-	}
-
-	.sidenav a {
-		color: var(--nav-link);
-	}
+	.sidenav {width: 100%;}
+	.sidenav a {color: var(--nav-link);}
 }
+
 @media (max-width: 800px) {
 	#nav {
 		text-align: center;
@@ -431,42 +388,32 @@ img {
 		z-index: 4;
 	}
 
-	#nav_names {
-		width: 100%;
-	}
+	#nav_names {width: 100%;}
 
-	#nav_names,
-	#nav_buttons {
+	#nav_names,#nav_buttons {
 		position: static;
 		display: inline-block;
 	}
 
-	#footer_banner>div {
-		font-size: 16px;
-	}
+	#footer_banner>div {font-size: 16px;}
 }
+
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
-	img {
-		opacity: .8;
-	}
+	img {opacity: .8;}
+
+	.sidenav {color: var(--input-font);}
 
 	body {
 		background-color: var(--bg-dark);
 		color: var(--box-font);
 	}
 
-	#content {
-		color: var(--box-font);
-	}
+	#content {color: var(--box-font);}
 
-	#content>.section {
-		color: var(--link);
-	}
-	#footer_banner {
-		background: var(--box-dark);
-	}
-	.box {
-		background-color: var(--box-dark);
-	}
+	#content>.section {color: var(--link);}
+
+	#footer_banner {background: var(--box-dark);}
+
+	.box {background-color: var(--box-dark);}
 }
