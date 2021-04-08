@@ -402,13 +402,13 @@ img {
 @media (prefers-color-scheme: dark) {
 	img {opacity: .8;}
 
-	.sidenav {color: var(--input-font);}
+	.sidenav a {color: var(--input-font);}
 
 	body {
 		background-color: var(--bg-dark);
 		color: var(--box-font);
 	}
-
+	
 	#content {color: var(--box-font);}
 
 	#content>.section {color: var(--link);}
