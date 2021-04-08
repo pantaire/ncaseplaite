@@ -7,5 +7,4 @@ function myFunction(x) {
         sidenav.style.display = "block";
     }
     x.classList.toggle("change");
-    console.log("toggled");
 }
