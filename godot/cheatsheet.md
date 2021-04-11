@@ -2,7 +2,8 @@
 ## Keyboard
 [Ctrl] + [A]        add child node  
 ## Code Abbreviations
-$Sprite             short for get_node("Sprite")  
+$Sprite             short for get_node("Sprite") 
+linear_velocity     Speed and direction, is most times added by a Vector2(speed, direciton) 
 
 # Concepts
 ## Groups
@@ -20,7 +21,13 @@ add_child(node)
 Godots version of observer pattern  
 sends message that other nodes can listen for and respond to them  
 signal my_signal defines new signals, arguments are optional but would be placed in ()
-emit_signal("my_signal", <optional variables>)
+emit_signal("my_signal", <optional variables>)\
+
+## Paths
+add points: draw counterclockwise to make things go to the inside. draw clockwise to select everything on the outside  
+
+## Add new Objects to scene
+var mob = Mob.instance()    add_child(mob)  -> new Mob instance, added as child
 
 # Scripting
 ## Naming conventions
@@ -37,5 +44,7 @@ _physics_process()      läuft vor jedem physics Schritt, z.B. zur Kontrolle von
 new()                   generate new objects, e.g. Sprites (s = Sprite.new() add_child(s) to add a new Sprite as a child node)  
 free()                  free node and its childs from tree, e.g. for deleting. Better use Node.queue_free() to delete when idle to avoid crashing  
 export var asef         shows variable in Inspector Tab, is editable there instead of "hard coded"  
+set_deferred(vars)      wait to do stuff till its safe to do so, e.g. waiting to finish collision processing   
+PI                      GDScript uses radians instead of degrees. Alternatives are deg2rad() oder rad2deg() to convert  
 
 
