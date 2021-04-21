@@ -1,9 +1,11 @@
 # Shortcuts
 ## Keyboard
 [Ctrl] + [A]        add child node  
+[Ctrl] + click on "extends Asef" opens documentation (inside godot window!) for Asef
 ## Code Abbreviations
 $Sprite             short for get_node("Sprite") 
 linear_velocity     Speed and direction, is most times added by a Vector2(speed, direciton) 
+lerp                linear interpolation: normalizes between two vectors. can be used to slowly stop a motion
 
 # Concepts
 ## Groups
@@ -47,4 +49,32 @@ export var asef         shows variable in Inspector Tab, is editable there inste
 set_deferred(vars)      wait to do stuff till its safe to do so, e.g. waiting to finish collision processing   
 PI                      GDScript uses radians instead of degrees. Alternatives are deg2rad() oder rad2deg() to convert  
 
+# Sprites
+## Sprite Frame Resources
+can be saved manually and loaded to show different outfits etc of the same character  
+
+## play animations
+$Sprite.play("animation)  
+
+# Tilesets
+import Tilesets, define size and grid of each tile  
+click to place, drag to place a row  
+rightclick to erase  
+
+# Collision Shapes
+can be oneway, check box to enable. Arrow indicates direction you have to fall to collide with shape  
+
+# Parallax Background
+parallax background
+    parallax layer
+    turn off centered
+    motion -> scale to 0.6 to be slower than the foreground
+        sprite
+        scale up to 2
+
+# Coins
+layers can be renamed in project settings -> layer names -> physics 2D
+
+# Raycast
+comparable to a walking stick, detects things in your way
 
