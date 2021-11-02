@@ -11,10 +11,7 @@
 	<meta content="utf-8" http-equiv="encoding">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=450">
-	<link rel="icon" type="image/png" href="favicon.ico" />
-	<script src="main.js"></script>
-
-	<!-- STYLING -->
+	<link rel="icon" type="image/png" href="door.png" />
 	<link rel="stylesheet" href="css/index.css" />
 </head>
 
@@ -22,112 +19,66 @@
 
 	<!-- NAV/LINKS -->
 	<div id="header">
-		<div id="sidetoggle" onclick="myFunction(this)">
-			<div class="bar1"></div>
-			<div class="bar2"></div>
-			<div class="bar3"></div>
-		  </div>
 		<div id="nav">
 			<span id="nav_names">taire.</span>
 			<span id="nav_buttons">
-				<a class="navlink" href="https://github.com/pantaire">github</a> |
 				<a class="navlink" href="https://matrix.to/#/@vol:taire.de">matrix</a> |
-				<a class="navlink" href="https://www.instagram.com/pan.taire">instagram</a> |
-				<a class="navlink" href="https://blog.taire.de">blog</a>
+				<a class="navlink" href="https://github.com/pantaire">github</a> |
+				<a class="navlink" href="https://www.instagram.com/blend.aire">instagram</a>
 			</span>
 		</div>
 	</div>
 
-	<!--SIDE NAV-->
-	<div id="sidenav" class="sidenav grad">
-		<a href="#hosted">	➡ Hosted by me</a><br>
-		<a href="#selfmade">	➡ Made by me</a><br>
-		<a href="#misc">	➡ Other Stuff</a>
-		<a href="#archive">	➡ Archive</a>
+	<div id="content">
+		<div id="hosted" class="section">➡•art•⬅</div>
+		<table>
+			<tr>
+				<td>
+					<a class="button" href="https://www.artstation.com/taire">artstation</a>
+				</td>
+				<td>
+					<span>my art portfolio (contains shiny finished work)</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="button" href="https://blog.taire.de/">blog</a>
+				</td>
+				<td>
+					<span>details, background info and off-topic posts</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="button" href="https://www.redbubble.com/people/pantaire">redbubble</a>
+				</td>
+				<td>
+					<span>art for sale, most of it royalty free </span>
+				</td>
+			</tr>
+		</table>
+
+		<div id="hosted" class="section">➡•craft•⬅</div>
+		<table>
+			<tr>
+				<td>
+					<a class="button" href="https://taire.de/_matrix/static/">[matrix]</a>
+				</td>
+				<td>
+					<span>decentralized network for instant messaging</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="button" href="https://cloud.taire.de/">nextcloud</a>
+				</td>
+				<td>
+					<span>safe storage for personal backups</span>
+				</td>
+			</tr>
+		</table>
 	</div>
 
-	<div id="content">
-
-		<!-- HOSTED BY ME -->
-		<div id="hosted" class="section">➡•RUNNING IN THE BACKGROUND•⬅</div>
-		<a href="https://taire.de/_matrix/static/">
-			<div>
-				<img src="img/matrix.png" />
-				<div>[matrix]<span> – a decentralized network for instant messaging</span></div>
-			</div>
-		</a>
-		<a href="https://cloud.taire.de/">
-			<div>
-				<img src="img/nextcloud.png" />
-				<div>nextcloud<span> – a safe storage for personal backups</span></div>
-			</div>
-		</a>
-		<a href="https://blog.taire.de/">
-			<div>
-				<img src="img/blog.png" />
-				<div>my blog<span> – occasional updates and art stuff</span></div>
-			</div>
-		</a>
-
-		<div style="clear:both"></div><hr>
-
-		<!-- MADE BY ME -->
-		<div id="selfmade" class="section">➡•THINGS I MADE•⬅</div>
-		<a href="/zodiak/index.html">
-			<div>
-				<img src="img/zodiak.png" />
-				<div>character generator<span> – generates a character based on zodiac sign</span></div>
-			</div>
-		</a>
-		<a href="/smolpudie">
-			<div>
-				<img src="img/smolpudie.png" />
-				<div>my first game<span> – collect 6 coins to respawn. made in godot.</span></div>
-			</div>
-		</a>
-		<!--a href="/misc/nuggprogress.html">
-			<div>
-				<img src="img/nuggs.png" />
-				<div>nugget calculator<span> – my personal nemesis and first attempt at a math-based web app</span>
-				</div>
-			</div>
-		</a-->
-
-		<div style="clear:both"></div><hr>
-
-		<!-- MISC -->
-		<div id="misc" class="section">➡•OTHER STUFF•⬅</div>
-		<a href="/misc/impossible.html">
-			<div>
-				<img src="img/impossible.png" />
-				<div>impossible list<span> – an incremental bucket list</span></div>
-			</div>
-		</a>
-		<a href="/misc/aktionenhandel.html">
-			<div>
-				<img src="img/aktionenhandel.png" />
-				<div>aktionenhandel (german)<span> – a semi-fictional poem about climate change</span></div>
-			</div>
-		</a>
-
-		<div style="clear:both"></div><hr>
-
-		<!-- ARCHIVE -->
-		<div id="archive" class="section">➡•ARCHIVE•⬅</div>
-		<a href="http://web.archive.org/web/20200617155100/https://taire.de/">
-			<div>
-				<img src="img/archive.png" />
-				<div>history of this page<span> – how this homepage has looked in 2019</span></div>
-			</div>
-		</a>
-		<a href="https://web.archive.org/web/20200912131452/https://adven.taire.de/">
-			<div>
-				<img src="img/blog.png" />
-				<div>blog v1 (2019-2020)<span> – tried blogging. gave up. started again, better this time</span></div>
-			</div>
-		</a>
-
-		<div style="clear:both"></div><hr>
 	</div>
 
 	<div id="footer">
@@ -135,14 +86,14 @@
 			<div>
 				<br>
 				<a href="https://taire.de/imprint.html">
-				Impressum</a>
+					Impressum (DE)</a>
 				<br>
 				<br>
-				<span>this site is <a href="https://github.com/pantaire/ncaseplaite">open source</a>, zero rights reserved. 
+				<span>this site is <a href="https://github.com/pantaire/ncaseplaite">open source</a>, zero rights
+					reserved.
 			</div>
 		</div>
 	</div>
 </body>
-
 
 </html>
